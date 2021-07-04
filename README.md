@@ -2,7 +2,7 @@
 
 **Task**: G2P task on low resource languages such as Slovenian(slv), Adyghe(ady) and Romanian(rum).
 
-**Our Soultion: seq-to-seq biLSTM with attention and character-level embedding on each low resource language.**
+**Our Soultion: seq-to-seq biLSTM with attention and character-level embedding on each low resource language.(Won the 1st place)**
 
 **Final Score: Average WER: 37.00, Average PER: 9.39**
 
