@@ -27,6 +27,7 @@ test_per|N/A|N/A|N/A|
 - data_new: data directory contains three subfolders for each language, in each subfolder, there are train, dev, test, new_test(two columns version of test where the second column contains - for each row)
 - evaluation: contains the inference on dev set generated in the middle of evaluation phase
 - predictions: contains final predictions on test set
+- models: contains the best checkpoint for each language
 
 
 ## Pipeline of training notebook
