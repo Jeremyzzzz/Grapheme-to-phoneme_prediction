@@ -23,8 +23,13 @@ dev_per |11.13|16.23|2.70|
 test_wer|N/A|N/A|N/A|
 test_per|N/A|N/A|N/A|
 
+**Folder structure:**
+- data_new: data directory contains three subfolders for each language, in each subfolder, there are train, dev, test, new_test(two columns version of test where the second column contains - for each row)
+- evaluation: contains the inference on dev set generated in the middle of evaluation phase
+- predictions: contains final predictions on test set
 
-## Pipeline of task
+
+## Pipeline of training notebook
 
 ### 1. Data exploration
   - size of each split
